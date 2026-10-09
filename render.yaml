@@ -2,15 +2,10 @@ services:
   - type: web
     name: burger-house
     runtime: node
-    plan: starter
+    plan: free
     buildCommand: echo ready
     startCommand: node server.js
     envVars:
       - key: ADMIN_PASSWORD
         sync: false
-      - key: DATA_FILE
-        value: /data/data.json
-    disk:
-      name: data
-      mountPath: /data
-      sizeGB: 1
+   

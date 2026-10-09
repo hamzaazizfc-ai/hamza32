@@ -1,0 +1,7 @@
+{
+  "name": "burger-house",
+  "version": "1.0.0",
+  "description": "موقع طلب وجبات سريعة - خادم Node.js بدون أي مكتبات خارجية",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
